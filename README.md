@@ -42,23 +42,23 @@ nodemon server.js
 
 # Access CRUD API
 
-1. **Create 
+1. **Create** 
 
 ![alt text](https://miro.medium.com/max/1000/1*w8R_7HsesuBR3r8mEduWlg.png)
 
-2. **Get All
+2. **Get All**
 
 ![alt text](https://miro.medium.com/max/1000/1*1PCSiRHsbkladungnZVelA.png)
 
-3. **Get One by Name
+3. **Get One by Name**
 
 ![alt text](https://miro.medium.com/max/1000/1*EkaGbNk6DL3Le_SF4iL6qw.png)
 
-4. **Update By Id
+4. **Update By Id**
 
 ![alt text](https://miro.medium.com/max/1000/1*CqyYIAVQ-mGZd6N_LDfMfg.png)
 
-5. **Delete by Id
+5. **Delete by Id**
 
 ![alt text](https://miro.medium.com/max/1000/1*d3C1Ej9FCw2wPAxpV5d6Ig.png)
 
