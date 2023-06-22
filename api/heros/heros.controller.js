@@ -60,7 +60,7 @@ exports.updateHero = function(req, res, next) {
         name: req.body.name,
         description: req.body.description
     }
-    Heros.update({_id: req.params.id}, hero, function(err, hero) {
+    Heros.updateOne({_id: req.params.id}, hero, function(err, hero) {
         if(err) {
             res.json({
                 error : err

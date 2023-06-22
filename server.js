@@ -4,8 +4,9 @@ var bodyParser = require('body-parser');
 
 var properties = require('./config/properties');
 var db = require('./config/database');
-//hero routes
+//hero routes & user routes
 var herosRoutes = require('./api/heros/heros.routes');
+var userRoutes = require('./api/users/users.routes');
 var app = express();
 
 //configure bodyparser
@@ -34,8 +35,11 @@ app.use(function(req, res, next) {
 
 // use express router
 app.use('/api',router);
-//call heros routing
+// Common route
+router.get('/', function(req,res){ res.send('NodeJs API Project');});
+//call heros & users routing
 herosRoutes(router);
+userRoutes(router);
 
 // intialise server
 app.listen(properties.PORT, (req, res) => {
